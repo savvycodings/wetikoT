@@ -12,10 +12,11 @@ import LinkPreviewImg4 from "../../assets/images/menu/link-4.jpg";
 
 const Menu = () => {
   const menuLinks = [
-    { path: "/about", label: "About" },
+    { path: "/edithlover", label: "Edithlover" },
     { path: "/works", label: "Work" },
     { path: "/blog", label: "Blog" },
     { path: "/contact", label: "Contact" },
+    
   ];
 
   const menuContainer = useRef();
@@ -140,7 +141,7 @@ const Menu = () => {
     <div className="menu-container" ref={menuContainer}>
       <div className="menu-bar">
         <div className="menu-logo" onClick={closeMenu}>
-          <Link to="/">Cura Futuri</Link>
+          <Link to="/">₩etiko</Link>
         </div>
         <div className="menu-actions">
           <div className="contact-btn">

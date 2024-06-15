@@ -17,6 +17,7 @@ import ProjectImg5 from "../../assets/images/projects/project-5.jpg";
 const Works = () => {
   const workCopyReveal = useRef();
 
+  // 4 Text Effect => workCopyReveal
   useEffect(() => {
     workCopyReveal.current = gsap.timeline({ paused: true }).to("h1", {
       top: "0",
@@ -45,7 +46,7 @@ const Works = () => {
 
     gsap.to(".project-preview img", {
       opacity: 0,
-      duration: 0.3,
+      duration: 0,
       onComplete: () => {
         lastHoveredIndex = -1;
       },
@@ -217,9 +218,9 @@ const Works = () => {
             handleResetPreivew();
           }}
         >
-          <Marquee>
-            <h1>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+          <Marquee >
+            <h1 >
+              test1 test1 test1, test1 test1 test1 adipisicing elit. Vitae,
               odit?
             </h1>
           </Marquee>

@@ -139,6 +139,51 @@ textarea {
   font-weight: 500;
 }
 
+.player-wrapper {
+  width: auto !important;
+  height: auto !important;
+}
+
+.react-player>div {
+  position: absolute !important;
+}
+
+.video-wrapper {
+  height: 100%;
+  width: 100%;
+  min-height: 225px;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-bottom .footer {
+  position: absolute;
+  bottom: 0;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 80px;

@@ -23,7 +23,7 @@ const Home = () => {
     heroImageReveal.current = gsap
       .timeline({ paused: true })
       .from(".hero-img", {
-        y: "1000",
+        y: "-1000",
         rotate: -10,
         duration: 1,
         ease: "power3.out",
@@ -52,10 +52,10 @@ const Home = () => {
       </div>
       <div className="hero-copy">
         <div className="hero-copy-wrapper">
-          <h1>Cura</h1>
+          <h1>- ₩ -</h1>
         </div>
         <div className="hero-copy-wrapper">
-          <h1>Futuri</h1>
+          <h1>Wetiko</h1>
         </div>
       </div>
 
